@@ -1,9 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/chat?session=dce7e535-28f2-4761-ba51-29ac1982c55b",
-      "permanent": false
-    }
-  ]
+  "buildCommand": "NODE_OPTIONS=--max-old-space-size=6144 bun run build", 
+  "installCommand": "bun install"
 }
